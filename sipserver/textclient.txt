@@ -1,0 +1,1924 @@
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.1.100
+javax.sip.STACK_NAME= Igneel
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="Igneel"
+ name="Igneel"
+ auxInfo="null"/>
+ 
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714090649"
+isSender="false" 
+transactionId="z9hg4bkec1570cc1e4918f52a2f0ef539860874" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bKec1570cc1e4918f52a2f0ef539860874
+Max-Forwards: 70
+Contact: "natsu" <sip:natsu@192.168.1.100:2000>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714091025"
+isSender="true" 
+transactionId="z9hg4bkec1570cc1e4918f52a2f0ef539860874" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bKec1570cc1e4918f52a2f0ef539860874
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714091111"
+isSender="true" 
+transactionId="z9hg4bkec1570cc1e4918f52a2f0ef539860874" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bKec1570cc1e4918f52a2f0ef539860874
+Contact: "From" <sip:192.168.1.100:3000>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714091222"
+isSender="false" 
+transactionId="z9hg4bk11556df333fb899094d5078eb29f5918" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="ACK sip:192.168.1.100:3000 SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.1.100:3000 SIP/2.0
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+CSeq: 1 ACK
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK11556df333fb899094d5078eb29f5918
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714091224"
+isSender="false" 
+transactionId="z9hg4bkec1570cc1e4918f52a2f0ef539860874" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bKec1570cc1e4918f52a2f0ef539860874
+Max-Forwards: 70
+Contact: "natsu" <sip:natsu@192.168.1.100:2000>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714091278"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714091794"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714092799"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714094801"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714098804"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714102807"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714106809"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714110812"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714114816"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714118818"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714122828"
+isSender="true" 
+transactionId="z9hg4bk385ffe802c7ec15127756f32650257d3" 
+callId="5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK385ffe802c7ec15127756f32650257d3
+CSeq: 1 BYE
+Call-ID: 5fdf5563f3f254d21857f6c1d1a6c631@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714247478"
+isSender="false" 
+transactionId="z9hg4bk8b5cb349c74ad1747a4bdfe66d759552" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK8b5cb349c74ad1747a4bdfe66d759552
+Max-Forwards: 70
+Contact: "natsu" <sip:natsu@192.168.1.100:2000>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714247489"
+isSender="true" 
+transactionId="z9hg4bk8b5cb349c74ad1747a4bdfe66d759552" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK8b5cb349c74ad1747a4bdfe66d759552
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714247495"
+isSender="true" 
+transactionId="z9hg4bk8b5cb349c74ad1747a4bdfe66d759552" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK8b5cb349c74ad1747a4bdfe66d759552
+Contact: "From" <sip:192.168.1.100:3000>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714247503"
+isSender="false" 
+transactionId="z9hg4bk2aebf2ee2a37a0681e357ac37277fdfd" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="ACK sip:192.168.1.100:3000 SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.1.100:3000 SIP/2.0
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+CSeq: 1 ACK
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK2aebf2ee2a37a0681e357ac37277fdfd
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714247513"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714248015"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714249015"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714251017"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714255021"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714259024"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714263027"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714267032"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714271041"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714275044"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714279047"
+isSender="true" 
+transactionId="z9hg4bk9d52480fb601cd09146c2237fe033ab0" 
+callId="09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK9d52480fb601cd09146c2237fe033ab0
+CSeq: 1 BYE
+Call-ID: 09ecdc5da2184d2cc2517cd92f3748a0@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714296181"
+isSender="false" 
+transactionId="z9hg4bk0084745d24f37161d889d5179c784ae9" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK0084745d24f37161d889d5179c784ae9
+Max-Forwards: 70
+Contact: "natsu" <sip:natsu@192.168.1.100:2000>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714296188"
+isSender="true" 
+transactionId="z9hg4bk0084745d24f37161d889d5179c784ae9" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK0084745d24f37161d889d5179c784ae9
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714296203"
+isSender="true" 
+transactionId="z9hg4bk0084745d24f37161d889d5179c784ae9" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK0084745d24f37161d889d5179c784ae9
+Contact: "From" <sip:192.168.1.100:3000>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714296219"
+isSender="false" 
+transactionId="z9hg4bkeb0f3790d3e33531362710d21ec13df2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="ACK sip:192.168.1.100:3000 SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.1.100:3000 SIP/2.0
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+CSeq: 1 ACK
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bKeb0f3790d3e33531362710d21ec13df2
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714296224"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714296726"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714297727"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714299728"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714303736"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714307741"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714311744"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714315748"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714319752"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714323755"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714327759"
+isSender="true" 
+transactionId="z9hg4bk276fd5703fec438ec0f749b1d062e8e2" 
+callId="834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK276fd5703fec438ec0f749b1d062e8e2
+CSeq: 1 BYE
+Call-ID: 834e7470ee5ddf4886e6da505eefa0c7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714570324"
+isSender="false" 
+transactionId="z9hg4bkf0c4376518b7067bf8e1e7e0904cc3ca" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bKf0c4376518b7067bf8e1e7e0904cc3ca
+Max-Forwards: 70
+Contact: "natsu" <sip:natsu@192.168.1.100:2000>
+Content-Type: text/plain
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714570341"
+isSender="true" 
+transactionId="z9hg4bkf0c4376518b7067bf8e1e7e0904cc3ca" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bKf0c4376518b7067bf8e1e7e0904cc3ca
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714570345"
+isSender="true" 
+transactionId="z9hg4bkf0c4376518b7067bf8e1e7e0904cc3ca" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bKf0c4376518b7067bf8e1e7e0904cc3ca
+Contact: "From" <sip:192.168.1.100:3000>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714570577"
+isSender="false" 
+transactionId="z9hg4bke8f939778e6c37bacf9aface626d54eb" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="ACK sip:192.168.1.100:3000 SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.1.100:3000 SIP/2.0
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+CSeq: 1 ACK
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bKe8f939778e6c37bacf9aface626d54eb
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714570595"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714571097"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714572098"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714574099"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714578103"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714582106"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714586110"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714590114"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714592979"
+isSender="false" 
+transactionId="z9hg4bk6d7d908405216ea93caa1a631c015fe5" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK6d7d908405216ea93caa1a631c015fe5
+Max-Forwards: 70
+Contact: "natsu" <sip:natsu@192.168.1.100:2000>
+Content-Type: text/plain
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714592999"
+isSender="true" 
+transactionId="z9hg4bk6d7d908405216ea93caa1a631c015fe5" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK6d7d908405216ea93caa1a631c015fe5
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714593004"
+isSender="true" 
+transactionId="z9hg4bk6d7d908405216ea93caa1a631c015fe5" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK6d7d908405216ea93caa1a631c015fe5
+Contact: "From" <sip:192.168.1.100:3000>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587714593031"
+isSender="false" 
+transactionId="z9hg4bk293aa2511f0f63ada7c5aa77eae5a482" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="ACK sip:192.168.1.100:3000 SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.1.100:3000 SIP/2.0
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+CSeq: 1 ACK
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK293aa2511f0f63ada7c5aa77eae5a482
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714593039"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714593540"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714594118"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714594541"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714596542"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714598122"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714600546"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714602128"
+isSender="true" 
+transactionId="z9hg4bkfcf4c85cc9306440a307e2ad5507f1fe" 
+callId="9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKfcf4c85cc9306440a307e2ad5507f1fe
+CSeq: 1 BYE
+Call-ID: 9c8c8e689f13cbe7bb99540084fa2746@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714604550"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714608554"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714612559"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714616562"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714620623"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587714624625"
+isSender="true" 
+transactionId="z9hg4bk1f292b64003bf026eca9334e35914db8" 
+callId="2ff6dbe664a14567849552c1fcec3acd@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bK1f292b64003bf026eca9334e35914db8
+CSeq: 1 BYE
+Call-ID: 2ff6dbe664a14567849552c1fcec3acd@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 192.168.1.100
+javax.sip.STACK_NAME= Igneel
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="Igneel"
+ name="Igneel"
+ auxInfo="null"/>
+ 
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587715284200"
+isSender="false" 
+transactionId="z9hg4bk8ded9a164d5679577de1f07725777aa7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK8ded9a164d5679577de1f07725777aa7
+Max-Forwards: 70
+Contact: "natsu" <sip:natsu@192.168.1.100:2000>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587715284747"
+isSender="false" 
+transactionId="z9hg4bk8ded9a164d5679577de1f07725777aa7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[INVITE sip:igneel@192.168.1.100:3000;transport=udp SIP/2.0
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK8ded9a164d5679577de1f07725777aa7
+Max-Forwards: 70
+Contact: "natsu" <sip:natsu@192.168.1.100:2000>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715284850"
+isSender="true" 
+transactionId="z9hg4bk8ded9a164d5679577de1f07725777aa7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK8ded9a164d5679577de1f07725777aa7
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715284946"
+isSender="true" 
+transactionId="z9hg4bk8ded9a164d5679577de1f07725777aa7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+CSeq: 1 INVITE
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK8ded9a164d5679577de1f07725777aa7
+Contact: "From" <sip:192.168.1.100:3000>
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:2000" 
+to="192.168.1.100:3000" 
+time="1587715285038"
+isSender="false" 
+transactionId="z9hg4bk59eb9a4b1fbca75f2eeeeb02cf106af1" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="ACK sip:192.168.1.100:3000 SIP/2.0" 
+>
+<![CDATA[ACK sip:192.168.1.100:3000 SIP/2.0
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+CSeq: 1 ACK
+Via: SIP/2.0/UDP 192.168.1.100:2000;branch=z9hG4bK59eb9a4b1fbca75f2eeeeb02cf106af1
+From: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+To: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715285079"
+isSender="true" 
+transactionId="z9hg4bka7358acfc48594cea73871d7ca36cab7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKa7358acfc48594cea73871d7ca36cab7
+CSeq: 1 BYE
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715285607"
+isSender="true" 
+transactionId="z9hg4bka7358acfc48594cea73871d7ca36cab7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKa7358acfc48594cea73871d7ca36cab7
+CSeq: 1 BYE
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715286608"
+isSender="true" 
+transactionId="z9hg4bka7358acfc48594cea73871d7ca36cab7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKa7358acfc48594cea73871d7ca36cab7
+CSeq: 1 BYE
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715288611"
+isSender="true" 
+transactionId="z9hg4bka7358acfc48594cea73871d7ca36cab7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKa7358acfc48594cea73871d7ca36cab7
+CSeq: 1 BYE
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715292614"
+isSender="true" 
+transactionId="z9hg4bka7358acfc48594cea73871d7ca36cab7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKa7358acfc48594cea73871d7ca36cab7
+CSeq: 1 BYE
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715296618"
+isSender="true" 
+transactionId="z9hg4bka7358acfc48594cea73871d7ca36cab7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKa7358acfc48594cea73871d7ca36cab7
+CSeq: 1 BYE
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715300633"
+isSender="true" 
+transactionId="z9hg4bka7358acfc48594cea73871d7ca36cab7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKa7358acfc48594cea73871d7ca36cab7
+CSeq: 1 BYE
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715304637"
+isSender="true" 
+transactionId="z9hg4bka7358acfc48594cea73871d7ca36cab7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKa7358acfc48594cea73871d7ca36cab7
+CSeq: 1 BYE
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="192.168.1.100:3000" 
+to="192.168.1.100:2000" 
+time="1587715308639"
+isSender="true" 
+transactionId="z9hg4bka7358acfc48594cea73871d7ca36cab7" 
+callId="01fd76245735454cf87d563244dc10e7@192.168.1.100" 
+firstLine="BYE sip:natsu@192.168.1.100:2000 SIP/2.0" 
+>
+<![CDATA[BYE sip:natsu@192.168.1.100:2000 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.100:3000;branch=z9hG4bKa7358acfc48594cea73871d7ca36cab7
+CSeq: 1 BYE
+Call-ID: 01fd76245735454cf87d563244dc10e7@192.168.1.100
+From: "igneel" <sip:igneel@192.168.1.100:3000>;tag=4321
+To: "natsu" <sip:natsu@192.168.1.100:2000>;tag=Natsu
+Max-Forwards: 70
+Content-Length: 0
+
+]]>
+</message>
+
